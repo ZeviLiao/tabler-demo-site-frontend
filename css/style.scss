@@ -1,3 +1,67 @@
-bodY {
-    // background: red;
+body {
+  margin: 0;
+  font-family: "Microsoft JhengHei", "微軟正黑體", "Microsoft YaHei", sans-serif;
+  //   padding: 0;
 }
+
+.wrapper {
+  margin: 0 auto;
+  width: 1024px;
+  background: #3f1e0d;
+}
+
+nav {
+  height: 66px;
+  background: url("../images/nav/nav-bg.png") repeat-x;
+  text-align: center;
+  font-size: 18px;
+
+  .nav-menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin: 0 20px;
+      line-height: 66px;
+      img {
+        vertical-align: middle;
+      }
+      span {
+        margin-left: 10px;
+      }
+      a {
+        color: #4c2705;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.content {
+  background: url("../images/content-bg.png") repeat;
+
+  main {
+    padding: 30px;
+  }
+}
+
+.aside-menu {
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 30%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+// menu

@@ -1,1 +1,73 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: "Microsoft JhengHei", "微軟正黑體", "Microsoft YaHei", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1024px;
+  background: #3f1e0d;
+}
+
+nav {
+  height: 66px;
+  background: url("../images/nav/nav-bg.png") repeat-x;
+  text-align: center;
+  font-size: 18px;
+}
+
+nav .nav-menu {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav .nav-menu li {
+  display: inline-block;
+  margin: 0 20px;
+  line-height: 66px;
+}
+
+nav .nav-menu li img {
+  vertical-align: middle;
+}
+
+nav .nav-menu li span {
+  margin-left: 10px;
+}
+
+nav .nav-menu li a {
+  color: #4c2705;
+  text-decoration: none;
+}
+
+.content {
+  background: url("../images/content-bg.png") repeat;
+}
+
+.content main {
+  padding: 30px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+/*# sourceMappingURL=style.css.map */
