@@ -64,4 +64,15 @@ nav {
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
-// menu
+footer {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+
+  .info {
+    display: inline-block;
+    margin-left: 30px;
+  }
+}
