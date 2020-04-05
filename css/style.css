@@ -42,12 +42,86 @@ nav .nav-menu li a {
   text-decoration: none;
 }
 
-.content {
-  background: url("../images/content-bg.png") repeat;
+.row {
+  background: url("../images/content-bg.png");
+  padding: 20px 10px;
 }
 
-.content main {
+.row main {
   padding: 30px;
+}
+
+.row main .tabs {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row main .tabs .tab1,
+.row main .tabs .tab2,
+.row main .tabs .tab3 {
+  padding: 5px;
+}
+
+.row main .tabs .tab1 {
+  background-color: #fc4d00;
+}
+
+.row main .tabs .tab2 {
+  background-color: #74bf00;
+}
+
+.row main .tabs .tab3 {
+  background-color: #00b0ef;
+}
+
+.row main .tabs > li {
+  display: inline-block;
+}
+
+.row main .tab-content {
+  background-color: #ff8a15;
+  color: white;
+  padding: 18px 30px;
+}
+
+.row main .tab-content-list {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row main .tab-content-list > li {
+  line-height: 28px;
+}
+
+.aside-menu .level1 {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.aside-menu .level1 > li {
+  width: 203px;
+  height: 43px;
+  line-height: 43px;
+  background: url("../images/btn/button-bg.png");
+  margin-bottom: 5px;
+}
+
+.aside-menu .level1 > li img {
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.aside-menu .level2 {
+  background-color: #ac5c00;
+  color: white;
+  display: inline-block;
+  padding: 15px 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: -8px;
 }
 
 * {
@@ -63,12 +137,9 @@ nav .nav-menu li a {
 
 /* Create two equal columns that sits next to each other */
 .column {
-  -webkit-box-flex: 30%;
-      -ms-flex: 30%;
-          flex: 30%;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
   padding: 10px;
-  height: 300px;
-  /* Should be removed. Only for demonstration */
 }
 
 footer {
