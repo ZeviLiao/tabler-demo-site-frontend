@@ -49,6 +49,7 @@ nav .nav-menu li a {
 
 .row main {
   padding: 30px;
+  width: 100%;
 }
 
 .row main .tabs {
@@ -137,9 +138,8 @@ nav .nav-menu li a {
 
 /* Create two equal columns that sits next to each other */
 .column {
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
-  padding: 10px;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
 }
 
 footer {
